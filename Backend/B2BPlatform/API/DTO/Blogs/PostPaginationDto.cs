@@ -1,16 +1,3 @@
-﻿using System.Text.Json.Serialization;
-
-namespace API.DTO.Blogs
-{
-    public class PostPaginationDto:PostBasicDataDto
-    {
-        [JsonPropertyName("id")]
-        public int Id { get; set; }
-        [JsonPropertyName("slug")]
-        public string Slug { get; set; }
-        [JsonPropertyName("excerpt")]
-        public string Excerpt { get; set; }
-
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1820767697ce63bd726d8cd13ab344b640bd1de81263c2362b77739132c8098a
+size 379

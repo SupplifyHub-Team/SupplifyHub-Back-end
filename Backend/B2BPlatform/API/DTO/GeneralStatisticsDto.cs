@@ -1,20 +1,3 @@
-﻿using System.Text.Json.Serialization;
-
-namespace API.DTO
-{
-    public class GeneralStatisticsDto
-    {
-        [JsonPropertyName("totalOrders")]
-        public int TotalOrders { get; set; }
-        [JsonPropertyName("totalUsers")]
-        public int TotalUsers { get; set; }
-        [JsonPropertyName("totalCategories")]
-        public int TotalCategories { get; set; }
-        [JsonPropertyName("newOrdersThisMonth")]
-        public int NewOrdersThisMonth { get; set; }
-        [JsonPropertyName("newUsersThisMonth")]
-        public int NewUsersThisMonth { get; set; }
-        [JsonPropertyName("newCategoriesThisMonth")]
-        public int NewCategoriesThisMonth { get; set; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:32a8cbc7da808361f0e737dd60e3ad09246ef5d951388fe3be5c0d16c8f438d5
+size 710

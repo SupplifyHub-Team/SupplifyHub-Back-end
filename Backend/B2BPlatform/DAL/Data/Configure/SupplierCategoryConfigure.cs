@@ -1,21 +1,3 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Entities;
-namespace DAL.Data.Configure
-{
-    public class SupplierCategoryConfigure : IEntityTypeConfiguration<SupplierCategory>
-    {
-        public void Configure(EntityTypeBuilder<SupplierCategory> builder)
-        {
-            builder.ToTable("SupplierCategories");
-            builder.HasKey(x => new { x.SupplierId , x.CategoryId }); // Composite primary key
-
-            // Foreign Keys
-            builder.Property(x => x.SupplierId).HasColumnName("SupplierId").HasColumnType("int").IsRequired();
-            builder.Property(x => x.CategoryId).HasColumnName("CategoryId").HasColumnType("int").IsRequired();
-
-            // Foreign Key relationships are defined in CompanyConfigure and CategoryConfigure
-        }
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3cb399ebe64f8b4520d85edb4001f7f0cc4872535e56097f6ede597c0d31e41b
+size 854

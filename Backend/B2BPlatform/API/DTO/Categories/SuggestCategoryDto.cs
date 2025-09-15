@@ -1,14 +1,3 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
-
-namespace API.DTO.Categories
-{
-    public class SuggestCategoryDto
-    {
-        [Required]
-        [JsonPropertyName("name")]
-        [StringLength(100, MinimumLength = 2, ErrorMessage = "اسم الفئة يجب ان يكون أكثر من حرفين وأقل من 100 حرف")]
-
-        public string Name { get; set; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1565b9b5f9d122bd6e5a676a71e41630bc29130af49b2c6463543a07676aa438
+size 432

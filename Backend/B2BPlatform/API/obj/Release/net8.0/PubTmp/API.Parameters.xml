@@ -1,6 +1,3 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="site35534" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\B2BPlatform\\B2B_Buisness_Platform_Admin_Dashboard\\Backend\\B2BPlatform\\API\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
-  </parameter>
-</parameters>
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0df0f22dd4e9e202361988ba7b04bb828f56c189071cc834c51f910fa399bc4
+size 369

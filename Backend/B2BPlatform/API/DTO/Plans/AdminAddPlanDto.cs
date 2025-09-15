@@ -1,12 +1,3 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.Text.Json.Serialization;
-
-namespace API.DTO.Plans
-{
-    public class AdminAddPlanDto : AdminUpdatePlanDto
-    {
-        //[JsonPropertyName("planName")]
-        //public string PlanName { get; set; } 
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb5f155731486a662f48df61a0df8ed73d16c67ac901f8e96250b2963cb6f78a
+size 290

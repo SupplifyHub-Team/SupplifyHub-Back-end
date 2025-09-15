@@ -1,16 +1,3 @@
-﻿using System.ComponentModel.DataAnnotations;
-namespace Entities;
-
-public class UserToken
-{
-    [Key]
-    public Guid Id { get; set; } // Assuming a unique ID for each token
-    public bool IsRevoked { get; set; }
-    public DateTime? ExpiresAt { get; set; } // Nullable if not all tokens expire
-    public string Token { get; set; }
-
-    // Foreign Key
-    public int UserId { get; set; }
-    // Navigation property
-    public User User { get; set; }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b1937b5873c13873ec8b5cf1d5e9d31067bb45e6fb89c8f57b4045f7b9b50458
+size 472

@@ -1,16 +1,3 @@
-﻿using Enum;
-namespace Entities;
-
-public class Deal
-{
-    public int Id {get; set; }
-    public int OrderId {get; set; }
-    public int SupplierId {get; set; }
-    public int ClientId {get; set; }
-    public DealStatus Status {get; set; } 
-    public Order Order { get; set; }
-    public User Client { get; set; }
-    public Supplier Supplier { get; set; }
-    public ICollection<DealDetailsVerification>  DealDetailsVerifications { get; set; }
-    public ICollection<Review> Reviews { get; set; }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe83bde918ac8a2454496900f8b0f4b0dfdb4a53b2f3094bb0112d6f22432b0a
+size 518

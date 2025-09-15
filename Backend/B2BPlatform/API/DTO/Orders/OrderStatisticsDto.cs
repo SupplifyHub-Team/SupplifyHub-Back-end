@@ -1,12 +1,3 @@
-using System.Text.Json.Serialization;
-
-namespace API.DTO.Orders;
-public class OrderStatisticsDto
-{
-    [JsonPropertyName("status")]
-    public string Status { get; set; }
-    [JsonPropertyName("totalCount")]
-    public int TotalCount { get; set; }
-    [JsonPropertyName("newThisMonth")]
-    public int NewThisMonth { get; set; }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:44af429ca96ebb432fcb4ec32e671cead79d0d00d9124d09aff9846e395ea583
+size 341

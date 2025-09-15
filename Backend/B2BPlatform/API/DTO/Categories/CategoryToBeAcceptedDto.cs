@@ -1,21 +1,3 @@
-﻿//using System.Text.Json.Serialization;
-
-//namespace API.DTO.Categories
-//{
-//    public class CategoryToBeAcceptedDto
-
-//    {
-//        [JsonPropertyName("id")]
-//        public int Id { get; set; }
-//        [JsonPropertyName("categoryName")]
-//        public string CategoryName { get; set; }
-//        [JsonPropertyName("suppliersWantToAddIt")]
-//        public List<string> SuppliersWantToAddIt { get; set; }
-//        [JsonPropertyName("submittedAt")]
-//        public DateTime SubmittedAt { get; set; }
-//        [JsonPropertyName("email")]
-//        public string Email { get; set; }
-//        [JsonPropertyName("imageURL")]
-//        public string ImageURL { get; set; }
-//    }
-//}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e8f7890591ee7b30ce339119096798bff41aa00414fb91408cfd4a222fe0847f
+size 717

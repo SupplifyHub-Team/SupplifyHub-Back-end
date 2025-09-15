@@ -1,28 +1,3 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
-
-namespace API.DTO.Products
-{
-    public class ProductToShowDto
-    {
-        [JsonPropertyName("name")]
-        public string Name { get; set; }
-
-        [JsonPropertyName("price")]
-        public double Price { get; set; }
-
-        [JsonPropertyName("description")]
-        public string Description { get; set; }
-
-        [JsonPropertyName("id")]
-        public int Id { get; set; }
-        [JsonPropertyName("companyName")]
-        public string CompanyName { get; set; }
-        [JsonPropertyName("productImageURl")]
-        public string ProductImageURl { get; set; }
-        [JsonPropertyName("offer")]
-        public int Offer { get; set; }
-        [JsonPropertyName("isSpecial")]
-        public bool IsSpecial {get; set;}
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:89307b2525c2716f63c1c28f643014fe4b0b8b2e91ae0e557c4c4ee78dea00b9
+size 853

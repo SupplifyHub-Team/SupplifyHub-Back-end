@@ -1,16 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Enum
-{
-
-    public enum PaymentStatus
-    {
-            Pending = 0, // Payment is pending
-            Completed = 1, // Payment completed successfully
-            Failed = 2, // Payment failed
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:50bd29b2d734a29be434c0c1e8083d1ce042c36b3fb2a12b9b07fe97f0430f5e
+size 348

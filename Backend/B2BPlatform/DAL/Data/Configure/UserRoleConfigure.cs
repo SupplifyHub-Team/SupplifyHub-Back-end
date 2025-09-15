@@ -1,17 +1,3 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Entities;
-namespace DAL.Data.Configure
-{
-    public class UserRoleConfigure : IEntityTypeConfiguration<UserRole>
-    {
-        public void Configure(EntityTypeBuilder<UserRole> builder)
-        {
-            builder.ToTable("UserRoles");
-            builder.HasKey(x => new { x.UserId, x.RoleId }); // Composite primary key
-
-            // Foreign Key relationships are defined in UserConfigure and RoleConfigure
-        }
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a4586dd108e495f1658621e3be8e3d18a52ad152a1da24df58cad8095095a36
+size 550

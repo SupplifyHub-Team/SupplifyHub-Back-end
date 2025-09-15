@@ -1,17 +1,3 @@
-﻿using Entities;
-using Enum;
-namespace Models.Entities
-{
-    public class Product
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public string ProductImageURl { get; set; }
-        public string ImagePublicId { get; set; }
-        public double Price { get; set; }
-        public int SupplierId { get; set; }
-        public Supplier Supplier { get; set; }
-        public SpecialProduct SpecialProduct { get; set; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:64bdc82a488c40991768292691eba7fbcb0af8f3f482029e893727bf8f93fdaa
+size 534

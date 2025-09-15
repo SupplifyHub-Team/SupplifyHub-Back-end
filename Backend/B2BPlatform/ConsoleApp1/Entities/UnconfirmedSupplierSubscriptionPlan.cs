@@ -1,23 +1,3 @@
-﻿using Entities;
-using Enum;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Entities
-{
-    public class UnconfirmedSupplierSubscriptionPlan
-    {
-        public Guid Id { get; set; }
-        public int SupplierId { get; set; }
-        public int PlanId { get; set; }
-        public DateTime CreatedAt { get; set; }
-
-        // Navigation properties
-        public Supplier Supplier { get; set; }
-        public SubscriptionPlan SubscriptionPlan { get; set; }
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c90dce0610c4e168bf687cabea67824e3bde35e4d9b9b0fa69fc87f83666182c
+size 573

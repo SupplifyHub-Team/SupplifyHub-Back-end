@@ -1,23 +1,3 @@
-﻿
-using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
-
-namespace API.DTO.Orders
-{
-    public class AddDealItemDto
-    {
-        [Required]
-        [JsonPropertyName("name")]
-        public string Name { get; set; }
-
-        [Required]
-        [Range(1, int.MaxValue)]
-        [JsonPropertyName("quantity")]
-        public int Quantity { get; set; }
-
-        [Required]
-        [Range(1, double.MaxValue)]
-        [JsonPropertyName("price")]
-        public double Price { get; set; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:433372df901605f52cc97f5077435504c80f4e7dfc782a441aa2f607bcee01ed
+size 547

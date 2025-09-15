@@ -1,12 +1,3 @@
-﻿namespace Entities;
-
-public class OrderContactToken
-{
-    public int Id { get; set; }
-    public int UserId { get; set; }
-    public int OrderId { get; set; }
-    public string TokenHash { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public DateTime ExpiresAt { get; set; }
-    public bool IsUsed { get; set; }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a082f55030637e88c59cf5c8032ba30b95d7ae08cd7ef7db0207466d1a63907
+size 341

@@ -1,18 +1,3 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using System.ComponentModel.DataAnnotations;
-namespace Entities;
-
-public class Review
-{
-    [Key]
-    public int Id { get; set; }
-    public int Rating { get; set; }
-    public string Comment { get; set; }
-    public DateTime SubmittedAt { get; set; }
-    public int DealId { get; set; }
-    public int ReviewerId { get; set; }
-    public int RevieweeId { get; set; }
-    public Deal Deal { get; set; }
-    public User Reviewer { get; set; }
-    public User Reviewee { get; set; }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4166eef7ca785f52ff4593e61b257189fec99f2265b50e5b634dec3411b2e6b8
+size 557

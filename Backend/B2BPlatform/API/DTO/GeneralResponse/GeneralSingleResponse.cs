@@ -1,10 +1,3 @@
-﻿using System.Text.Json.Serialization;
-
-namespace API.DTO.GeneralResponse
-{
-    public class GeneralSingleResponse<T>
-    {
-        [JsonPropertyName("data")]
-        public T Data { get; set; } = default!;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:79425073a2826d1f6889d3db3b39c875dd7fe3054be8ad96ac939e7bae59fe03
+size 227

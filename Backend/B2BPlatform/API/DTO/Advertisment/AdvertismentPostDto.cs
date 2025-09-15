@@ -1,20 +1,3 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
-
-namespace API.DTO.Advertisment
-{
-    public class AdvertismentPostDto
-    {
-        [Required(ErrorMessage = "العنوان مطلوب")]
-        [JsonPropertyName("title")]
-        public string Title { get; set; } 
-        
-        [Required(ErrorMessage = "يجب ادخال الصورة")]
-        [JsonPropertyName("image")]
-        public IFormFile ImageFile { get; set; } 
-        
-        [JsonPropertyName("targetURL")]
-        public string? TargetUrl { get; set; }
-        
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b193aaebc464c37641b93ffb34b50d9cfd49331793698e3e9cd46a6fb36b2695
+size 601

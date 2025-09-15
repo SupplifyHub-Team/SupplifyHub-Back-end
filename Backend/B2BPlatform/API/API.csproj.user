@@ -1,12 +1,3 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ActiveDebugProfile>https</ActiveDebugProfile>
-    <Controller_SelectedScaffolderID>ApiControllerEmptyScaffolder</Controller_SelectedScaffolderID>
-    <Controller_SelectedScaffolderCategoryPath>root/Common/Api</Controller_SelectedScaffolderCategoryPath>
-    <NameOfLastUsedPublishProfile>D:\B2BPlatform\B2B_Buisness_Platform_Admin_Dashboard\Backend\B2BPlatform\API\Properties\PublishProfiles\site35534-WebDeploy.pubxml</NameOfLastUsedPublishProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
-  </PropertyGroup>
-</Project>
+version https://git-lfs.github.com/spec/v1
+oid sha256:94f8c73331fe71fd5eea9c01f6b1f401d9b809dcff5dd3bc41bd34df8222a907
+size 796

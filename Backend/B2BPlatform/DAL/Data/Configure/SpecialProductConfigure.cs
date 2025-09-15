@@ -1,24 +1,3 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Models.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DAL.Data.Configure
-{
-    internal class SpecialProductConfigure: IEntityTypeConfiguration<SpecialProduct>
-    {
-        public void Configure(EntityTypeBuilder<SpecialProduct> builder)
-        {
-            builder.ToTable("SpecialProducts"); // Explicitly set table name if different from class name
-            builder.HasKey(x => x.ProductId);
-            builder.Property(x => x.ProductId).HasColumnName("ProductId").HasColumnType("int");
-            builder.Property(x => x.Offer).HasColumnName("Offer").HasColumnType("int").IsRequired(true);
-
-
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbb8a6252dd1f6a06189fc8a0ef0fa985ea0bf660e45945cf7d7e1496283c3b6
+size 837

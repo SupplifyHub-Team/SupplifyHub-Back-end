@@ -1,20 +1,3 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
-
-namespace API.DTO.Orders
-{
-    public class OrderItemToAddDto
-    {
-        [Required]
-        [MaxLength(200, ErrorMessage = "أقصى عدد من الحروف 200")]
-        [JsonPropertyName("name")]
-        public string Name { get; set; }
-        [Required]
-        [Range(1, int.MaxValue, ErrorMessage = "برجاء إدخال قيمة صحيحة للكمية")]
-        [JsonPropertyName("quantity")]
-        public int Quantity { get; set; }
-
-        [JsonPropertyName("notes")]
-        public string? Notes { get; set; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1bd894fe5c0f8a3316300c0f1d64fc1c2b77a64f4134ab5a632d60a2f3cb8b15
+size 645

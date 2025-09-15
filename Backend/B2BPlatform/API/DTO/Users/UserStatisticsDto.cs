@@ -1,14 +1,3 @@
-using System.Text.Json.Serialization;
-
-namespace API.DTO.Users;
-public class UserStatisticsDto
-{
-    [JsonPropertyName("category")]
-    public string Category { get; set; }
-    [JsonPropertyName("totalCount")]
-    public int TotalCount { get; set; }
-    [JsonPropertyName("newThisMonth")]
-    public int NewThisMonth { get; set; }
-    [JsonPropertyName("newUserPercentage")]
-    public double NewUserPercentage { get; set; }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:87e99a6acc682ce7367ebe738eec7a89de477a7ff994f4a2d5178bc404c3bc61
+size 439

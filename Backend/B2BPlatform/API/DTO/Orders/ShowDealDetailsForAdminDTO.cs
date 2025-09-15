@@ -1,33 +1,3 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
-
-namespace API.DTO.Orders
-{
-    public class ShowDealDetailsForAdminDTO
-    { 
-        [JsonPropertyName("dealDetailsId")]
-        public int DealDetailsId { get; set; }
-
-        [JsonPropertyName("companyName")]
-        public string CompanyName { get; set; }
-
-        [JsonPropertyName("companyEmail")]
-        public string CompanyEmail { get; set; }
-
-        [JsonPropertyName("companyPhone")]
-        public string CompanyPhone { get; set; }
-
-        
-
-        [JsonPropertyName("dealDoneAt")]
-        public DateTime DealDoneAt { get; set; }
-
-        [JsonPropertyName("dateOfDelivered")]
-        public DateTime DateOfDelivered { get; set; }
-
-        [JsonPropertyName("items")]
-        public List<DealItemToShowDto> Items { get; set; } = new List<DealItemToShowDto>();
-    }
-
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:58c093b2de31984c3a93493d530ed9b64434931ce280a84a1e257cae6af87a0f
+size 907

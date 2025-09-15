@@ -1,15 +1,3 @@
-﻿using System.Text.Json.Serialization;
-
-namespace API.DTO.Plans
-{
-    public class PlanToShowDto : AdminAddPlanDto
-    {
-        [JsonPropertyName("id")]
-        public int Id { get; set; }
-        [JsonPropertyName("createdAt")]
-        public DateTime CreatedAt { get; set; }
-        [JsonPropertyName("updatedAt")]
-        public DateTime UpdatedAt { get; set; }
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd205c0ddb018a6798752e9ac298c8380819d9344ce60360009cab17542f50c3
+size 392

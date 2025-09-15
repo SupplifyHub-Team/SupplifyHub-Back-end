@@ -1,25 +1,3 @@
-﻿using System.Text.Json.Serialization;
-
-namespace API.DTO.Plans
-{
-    public class UnconfirmedSubscriptionDto
-    {
-        [JsonPropertyName("planId")]
-        public int PlanId { get; set; }
-        [JsonPropertyName("supplierId")]
-        public int SupplierId { get; set; }
-        [JsonPropertyName("planName")]
-        public string PlanName { get; set; }
-        [JsonPropertyName("supplierName")]
-        public string SupplierName { get; set; }
-        [JsonPropertyName("email")]
-        public string Email { get; set; }
-        [JsonPropertyName("createdAt")]
-        public DateTime CreatedAt { get; set; }
-        [JsonPropertyName("joinDate")]
-        public DateTime JoinDate { get; set; }
-        [JsonPropertyName("duration")]
-        public int Duration { get; set; }
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:acf3b132c8e7007ffe3549d254d3518d3f85b8c2357401bc5157d658ad4aefdd
+size 823

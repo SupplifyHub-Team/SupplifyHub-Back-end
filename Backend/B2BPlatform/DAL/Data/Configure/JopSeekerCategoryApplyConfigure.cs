@@ -1,21 +1,3 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Entities;
-namespace DAL.Data.Configure
-{
-    public class JopSeekerCategoryApplyConfigure : IEntityTypeConfiguration<JopSeekerCategoryApply>
-    {
-        public void Configure(EntityTypeBuilder<JopSeekerCategoryApply> builder)
-        {
-            builder.ToTable("JopSeekerCategoryApplies");
-            builder.HasKey(x => new { x.JopSeekerId, x.CategoryId }); // Composite primary key
-
-            // Foreign Keys
-            builder.Property(x => x.JopSeekerId).HasColumnName("JopSeekerId").HasColumnType("int").IsRequired();
-            builder.Property(x => x.CategoryId).HasColumnName("CategoryId").HasColumnType("int").IsRequired();
-
-            // Foreign Key relationships are defined in IndividualConfigure and CategoryConfigure
-        }
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8f9a825ca0257a71476291f8d4fea86688038aafdaae5bcedc69ffc9c2ffc2e
+size 883

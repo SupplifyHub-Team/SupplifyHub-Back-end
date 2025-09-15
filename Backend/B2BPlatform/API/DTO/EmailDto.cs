@@ -1,10 +1,3 @@
-﻿namespace API.DTO
-{
-    public class EmailDto
-    {
-        public string To { get; set; } = string.Empty;
-        public string Subject { get; set; } = string.Empty;
-        public string Body { get; set; } = string.Empty;
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:280b20d965632a0714744bcd0e3b7776381b33459d200b06b275664673cc6415
+size 246

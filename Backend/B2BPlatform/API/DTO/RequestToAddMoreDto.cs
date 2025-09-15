@@ -1,20 +1,3 @@
-﻿using System.Runtime.InteropServices;
-using System.Text.Json.Serialization;
-
-namespace API.DTO
-{
-    public class RequestToAddMoreDto
-    {
-        
-        [JsonPropertyName("requestId")]
-        public Guid RequestId { get; set; }
-        [JsonPropertyName("name")]
-        public string Name { get; set; }
-        [JsonPropertyName("email")]
-        public string Email { get; set; }
-        [JsonPropertyName("phone")]
-        public string Phone { get; set; }
-        [JsonPropertyName("amount")]
-        public int Amount { get; set; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:25ab22b7dedcf58e6315239fef5ca4f0ee9df4c1f4f032544b6006c02975ef87
+size 573

@@ -1,13 +1,3 @@
-﻿//namespace Entities;
-
-//public class PasswordResetToken
-//{
-
-//    public int Id { get; set; }
-//    public int UserId { get; set; }
-//    public string TokenHash { get; set; }
-//    public DateTime ExpiresAt { get; set; }
-//    public bool IsUsed { get; set; } = false;
-//    public DateTime CreatedAt { get; set; }
-//    public User User { get; set; }
-//}
+version https://git-lfs.github.com/spec/v1
+oid sha256:af6b305892add2f8159151fb0db6a4274592bd56ab1c794f1c1ee7cb15ab4e2c
+size 373

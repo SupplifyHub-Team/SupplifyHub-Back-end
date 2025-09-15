@@ -1,19 +1,3 @@
-﻿using Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Models.Entities
-{
-    public class DealItem
-    {
-        public int Id { get; set; }
-        public int DealDetailsVerificationId { get; set; }
-        public string Name { get; set; }
-        public int Quantity { get; set; }
-        public double Price { get; set; }
-        public DealDetailsVerification DealDetailsVerification { get; set; }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ac2fa48a55e018df56b5680486c874d8398d47879656420f71adb7b3534d486
+size 520

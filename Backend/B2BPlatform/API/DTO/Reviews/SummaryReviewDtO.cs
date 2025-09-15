@@ -1,9 +1,3 @@
-﻿using System.Text.Json.Serialization;
-
-public class SummaryReviewDtO
-{
-    [JsonPropertyName("totalRatings")]
-    public int TotalRatings { get; set; }
-    [JsonPropertyName("Distribution")]
-    public int[] Distribution { get; set; } = new int[5];
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:63bbafb671dcb9fcc443e1db6af7b7aaf688e958fac6266ea9726eb091f0a8e6
+size 261

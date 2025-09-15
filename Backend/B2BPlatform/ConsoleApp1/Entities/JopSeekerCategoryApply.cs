@@ -1,12 +1,3 @@
-﻿namespace Entities;
-
-public class JopSeekerCategoryApply
-{
-    // Composite key (fluent API will configure this)
-    public int JopSeekerId { get; set; } // Renamed from Individual_id for consistency
-    public int CategoryId { get; set; }
-
-    // Navigation properties
-    public JopSeeker Individual { get; set; }
-    public Category Category { get; set; }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:310c2440d501aea52ab7974602b0ed8f9d543af067f0d9dd4a604772b4c7ab57
+size 376

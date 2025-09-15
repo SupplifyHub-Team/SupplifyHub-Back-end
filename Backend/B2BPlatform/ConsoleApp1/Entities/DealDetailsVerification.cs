@@ -1,21 +1,3 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Models.Entities;
-using System.ComponentModel.DataAnnotations;
-namespace Entities;
-
-public class DealDetailsVerification
-{
-    [Key]
-    public int Id { get; set; }
-    public int DealId { get; set; }
-    public int SubmittedById { get; set; }
-    //public string DiscriptionAndQuantity { get; set; }
-    //public int Quantity { get; set; }
-    //public double Price { get; set; }
-    public DateTime DealDoneAt { get; set; }
-    public DateTime DateOfDelivered { get; set; }
-    public DateTime SubmittedAt { get; set; }
-    public Deal Deal { get; set; }
-    public User User { get; set; }
-    public List<DealItem> Items { get; set; }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b15db9e8b2e8a510a486a3e9f8a0305b45c2d39faa9468aa46f7c44383dc5034
+size 724
