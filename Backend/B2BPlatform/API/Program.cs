@@ -158,7 +158,9 @@ namespace API
                     "https://localhost:5174",
                     "https://localhost:5175",
                     "https://supplifyhubdashboard.netlify.app",
-                    "https://supplifyhub-frontend.netlify.app"
+                    "https://supplifyhub-frontend.netlify.app",
+                    "https://supplifyhub.com",
+                    "https://admin.supplifyhub.com"
                     )
                     .AllowCredentials()
                     .AllowAnyHeader()
@@ -187,7 +189,7 @@ namespace API
 
             var app = builder.Build();
 
-            app.UseSwagger();
+            //app.UseSwagger();
             //app.UseSwaggerUI();
             //app.UseSwaggerUI(options =>
             //{
